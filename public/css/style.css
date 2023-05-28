@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    background-color: #01334A;
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px 100px
+}
+
+/* Style the nav section */
+nav {
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav ul li a.default {
+    color: #FC7F45;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Style the hero section */
+.hero {
+    color: #fff;
+    margin: 100px;
+}
+
+.hero h1,h2,p,a{
+    color: #fff;
+    margin-top: 12px;
+}
+
+.hero h1 {
+    font-size: 30px;
+}
+
+.hero h2 {
+    font-size: 20px;
+}
+
+.hero p {
+    font-size: 14px;
+}
+
+.hero a {
+    text-decoration: none;
+}
+
+.highlight {
+    color: #FC7F45;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}

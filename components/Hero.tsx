@@ -1,5 +1,6 @@
 import React from "react";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import Button from "./ui/Button";
 
 const Hero = () => {
   return (
@@ -8,10 +9,15 @@ const Hero = () => {
         <h2 className="uppercase tracking-widest text-sm text-center text-blue-100 max-w-80">
           Hello World!
         </h2>
+
         <TextGenerateEffect
           className="text-center text-2xl md:text-4xl lg:text-6xl"
           words="I'm Nasrulloh Fajar Muharam a Front end Developer"
         />
+
+        <a href="#about">
+          <Button title="See More About Me" />
+        </a>
       </div>
     </div>
   );

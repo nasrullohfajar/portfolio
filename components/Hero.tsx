@@ -6,7 +6,7 @@ import Button from "./ui/Button";
 const Hero = () => {
   return (
     <div className="flex justify-center items-center h-screen">
-      <div className="max-w-[85vw] md:max-w-[70vw] lg:max-w-[64vw] flex flex-col items-center justify-center">
+      <div className="max-w-[85vw] md:max-w-[70vw] lg:max-w-[48vw] flex flex-col items-center justify-center">
         <h2 className="uppercase tracking-widest text-sm text-center text-blue-100 max-w-80">
           Hello World!
         </h2>
@@ -16,7 +16,7 @@ const Hero = () => {
           words="I'm Nasrulloh Fajar Muharam a Front end Developer"
         />
 
-        <div className="flex flex-row gap-4">
+        <div className="flex flex-row sm:flex-col gap-4">
           <a href="#about">
             <Button
               title="See More About Me"

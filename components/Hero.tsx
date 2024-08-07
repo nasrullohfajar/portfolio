@@ -1,5 +1,6 @@
 import React from "react";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { FaPaperPlane } from "react-icons/fa";
 import Button from "./ui/Button";
 
 const Hero = () => {
@@ -16,7 +17,11 @@ const Hero = () => {
         />
 
         <a href="#about">
-          <Button title="See More About Me" />
+          <Button
+            title="See More About Me"
+            icon={<FaPaperPlane />}
+            position="right"
+          />
         </a>
       </div>
     </div>

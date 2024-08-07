@@ -16,7 +16,7 @@ const Hero = () => {
           words="I'm Nasrulloh Fajar Muharam a Front end Developer"
         />
 
-        <div className="flex flex-row sm:flex-col gap-4">
+        <div className="flex flex-col md:flex-row lg:flex-row gap-4">
           <a href="#about">
             <Button
               title="See More About Me"

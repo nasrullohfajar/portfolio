@@ -8,7 +8,10 @@ const Hero = () => {
         <h2 className="uppercase tracking-widest text-sm text-center text-blue-100 max-w-80">
           Hello World!
         </h2>
-        <TextGenerateEffect words="I'm Nasrulloh Fajar Muharam a Front end Developer" />
+        <TextGenerateEffect
+          className="text-center text-2xl md:text-4xl lg:text-6xl"
+          words="I'm Nasrulloh Fajar Muharam a Front end Developer"
+        />
       </div>
     </div>
   );

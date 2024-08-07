@@ -1,6 +1,6 @@
 import React from "react";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import { FaPaperPlane } from "react-icons/fa";
+import { FaPaperPlane, FaDownload } from "react-icons/fa";
 import Button from "./ui/Button";
 
 const Hero = () => {
@@ -16,13 +16,21 @@ const Hero = () => {
           words="I'm Nasrulloh Fajar Muharam a Front end Developer"
         />
 
-        <a href="#about">
+        <div className="flex flex-row gap-4">
+          <a href="#about">
+            <Button
+              title="See More About Me"
+              icon={<FaPaperPlane />}
+              position="right"
+            />
+          </a>
+
           <Button
-            title="See More About Me"
-            icon={<FaPaperPlane />}
+            title="Download My CV"
+            icon={<FaDownload />}
             position="right"
           />
-        </a>
+        </div>
       </div>
     </div>
   );

@@ -14,7 +14,6 @@ export default function Home() {
           ]}
         />
         <Hero />
-        <p className="h-screen">das</p>
       </div>
     </main>
   );

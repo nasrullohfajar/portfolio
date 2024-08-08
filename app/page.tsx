@@ -1,6 +1,8 @@
 import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { FaHome } from "react-icons/fa";
+import { ShootingStars } from "@/components/ui/ShootingStars";
+import { StarsBackground } from "@/components/ui/StarsBackground";
 
 export default function Home() {
   return (
@@ -12,6 +14,13 @@ export default function Home() {
             { name: "Project", link: "#project" },
             { name: "Contact", link: "#contact" },
           ]}
+        />
+        <StarsBackground starDensity={0.00005} />
+        <ShootingStars
+          minSpeed={1}
+          maxSpeed={3}
+          minDelay={5000}
+          maxDelay={8000}
         />
         <Hero />
       </div>

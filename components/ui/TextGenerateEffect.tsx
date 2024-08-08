@@ -30,8 +30,6 @@ export const TextGenerateEffect = ({
     );
   }, [scope.current]);
 
-  console.log(className);
-
   const renderWords = () => {
     return (
       <motion.div ref={scope}>

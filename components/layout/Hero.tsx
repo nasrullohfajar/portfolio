@@ -1,7 +1,7 @@
 import React from "react";
 import { FaPaperPlane, FaDownload } from "react-icons/fa";
-import TextGenerateEffect from "./ui/TextGenerateEffect";
-import Button from "./ui/Button";
+import TextGenerateEffect from "../ui/TextGenerateEffect";
+import Button from "../ui/Button";
 
 const Hero = () => {
   return (

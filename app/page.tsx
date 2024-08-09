@@ -1,7 +1,7 @@
-import Hero from "@/components/Hero";
-import Navbar from "@/components/ui/Navbar";
-import ShootingStars from "@/components/ui/background/ShootingStars";
-import StarsBackground from "@/components/ui/background/StarsBackground";
+import Hero from "@/components/layout/Hero";
+import Navbar from "@/components/layout/Navbar";
+import ShootingStars from "@/components/layout/background/ShootingStars";
+import StarsBackground from "@/components/layout/background/StarsBackground";
 
 export default function Home() {
   return (
